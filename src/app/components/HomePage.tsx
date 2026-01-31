@@ -84,7 +84,7 @@ export default function HomePage() {
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="text-5xl md:text-6xl mb-4 text-transparent bg-clip-text bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 font-bold">
-            MeAndAI
+            See My Card
           </h1>
           <p className="text-xl text-gray-600 mb-2">
             Digital Visiting Card Designs
@@ -101,7 +101,7 @@ export default function HomePage() {
               <div className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-2">
                 {/* Image Holder */}
                 <div className={`h-52 bg-gradient-to-br ${demo.gradient} flex items-center justify-center relative overflow-hidden`}>
-                  <ImageWithFallback 
+                  <ImageWithFallback
                     src={demo.image}
                     alt={demo.title}
                     className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-300"
@@ -145,31 +145,13 @@ export default function HomePage() {
             {/* Brand */}
             <div>
               <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 mb-3">
-                MeAndAI
+                See My Card
               </h3>
               <p className="text-sm text-gray-600 leading-relaxed">
                 Create stunning digital visiting cards and bio websites. Choose from our collection of professionally designed templates.
               </p>
             </div>
 
-            {/* Quick Links */}
-            <div>
-              <h4 className="text-lg font-semibold text-gray-900 mb-3">Quick Links</h4>
-              <ul className="space-y-2">
-                <li>
-                  <a href="#" className="text-sm text-gray-600 hover:text-purple-600 transition-colors">All Templates</a>
-                </li>
-                <li>
-                  <a href="#" className="text-sm text-gray-600 hover:text-purple-600 transition-colors">Premium Designs</a>
-                </li>
-                <li>
-                  <a href="#" className="text-sm text-gray-600 hover:text-purple-600 transition-colors">Pricing</a>
-                </li>
-                <li>
-                  <a href="#" className="text-sm text-gray-600 hover:text-purple-600 transition-colors">Support</a>
-                </li>
-              </ul>
-            </div>
 
             {/* Contact & Social */}
             <div>
@@ -181,26 +163,26 @@ export default function HomePage() {
                 </a>
               </div>
               <div className="flex gap-3">
-                <a 
-                  href="#" 
+                <a
+                  href="#"
                   className="w-10 h-10 bg-purple-100 hover:bg-purple-600 text-purple-600 hover:text-white rounded-lg flex items-center justify-center transition-all duration-300"
                 >
                   <Facebook className="w-5 h-5" />
                 </a>
-                <a 
-                  href="#" 
+                <a
+                  href="#"
                   className="w-10 h-10 bg-pink-100 hover:bg-pink-600 text-pink-600 hover:text-white rounded-lg flex items-center justify-center transition-all duration-300"
                 >
                   <Twitter className="w-5 h-5" />
                 </a>
-                <a 
-                  href="#" 
+                <a
+                  href="#"
                   className="w-10 h-10 bg-purple-100 hover:bg-purple-600 text-purple-600 hover:text-white rounded-lg flex items-center justify-center transition-all duration-300"
                 >
                   <Instagram className="w-5 h-5" />
                 </a>
-                <a 
-                  href="#" 
+                <a
+                  href="#"
                   className="w-10 h-10 bg-blue-100 hover:bg-blue-600 text-blue-600 hover:text-white rounded-lg flex items-center justify-center transition-all duration-300"
                 >
                   <Linkedin className="w-5 h-5" />
@@ -214,9 +196,7 @@ export default function HomePage() {
             <p className="text-sm text-gray-500">
               © 2026 MeAndAI. All rights reserved.
             </p>
-            <p className="text-sm text-gray-500 flex items-center gap-1">
-              Made with <Heart className="w-4 h-4 text-red-500 fill-red-500" /> by MeAndAI Team
-            </p>
+
           </div>
         </footer>
       </div>
